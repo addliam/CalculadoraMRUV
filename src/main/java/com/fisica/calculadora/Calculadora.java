@@ -4,6 +4,7 @@
  */
 
 package com.fisica.calculadora;
+import calcmruv.JFrameCalculadora;
 
 /**
  *
@@ -13,5 +14,8 @@ public class Calculadora {
 
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        JFrameCalculadora frameCalculadora = new JFrameCalculadora();
+        frameCalculadora.setLocationRelativeTo(null);
+        frameCalculadora.setVisible(true);
     }
 }
